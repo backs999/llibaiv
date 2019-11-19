@@ -1,0 +1,3 @@
+OAuth2 with possible JWT tokens 
+
+To ensure the service is redundant the database would be clusters across multiple data centers within AWS and would be a fully managed service. For the API themselves, mutilple instances of them running behind a gateway using Netflix OSS components such as a Config Server, Service Discovery (Eureka), Circuit Breaker (Hystrix), Intelligent Routing (Zuul) and Client Side Load Balancing (Ribbon)
